@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale">
+    <title>Rock,Paper and scissors</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/23c05ae2cf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <h4>Rock, Paper and Scissor.</h4>
+
+    </nav>
+    <section class="game">
+    <div class="game-container">
+        <div class="score-container">
+            <p>Your Score: <span id="user-score">0</span></p>
+            <p >Computer Score: <span id="computer-score">0</span></p>
+            <div class="items">
+                <button class="btn" id="rock-btn">
+                    <i class="fa-solid fa-hand-back-fist"></i>
+                </button>
+                <button class="btn">
+                    <i class="fa-solid fa-hand" id="paper-btn"></i>
+                </button>
+                <button class="btn">
+                    <i class="fa-solid fa-hand-scissors" id="scissor-btn"></i>
+                </button>
+
+            </div>
+
+        </div>
+        <div class="info-container">
+            <p> <span id="user-choice"></span> </p> 
+            <p> <span id="computer-choice"></span></p>
+            </div>
+            <div>
+            <h3 class="result" id="result"></h3> 
+
+        </div>
+
+    </div>
+</section>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
